@@ -1,4 +1,4 @@
-Spang
+Spang (PLEASE FOLLO US ON TWITUR 4 LATEST DEVLOPMENT INSITES!!!!! https://twitter.com/SpangOfficial)
 =============
 **Curentli fuly producshun ready but still ativ devlop**  
 is hi purrfromans impl of Spnge ay-pee-ei.
