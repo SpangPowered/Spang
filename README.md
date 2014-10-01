@@ -1,97 +1,85 @@
-Sponge [![Build Status](https://travis-ci.org/SpongePowered/Sponge.png?branch=master)](https://travis-ci.org/SpongePowered/Sponge)
+Spang
 =============
-**Currently not stable and under heavily development!**  
-A Forge implementation of the Sponge API. It is licensed under the [MIT License]. 
+**Curentli fuly producshun ready but still ativ devlop**  
+is hi purrfromans impl of Spnge ay-pee-ei.
 
-* [Homepage]
-* [Source]
-* [Issues]
-* [SpongeAPI Wiki]
-* [Sponge Wiki]
-* [Community Chat]: #sponge on irc.esper.net
-* [Development Chat]: #spongedev on irc.esper.net
+* [Hompuj]
+* [src]
+* [dont report bugs we r flawlezz]
+* [SpongeAPI wikie]
+* [Sponge comunit wikie]
+* [komuniti chate]: #spang @ le irc.spi.gt
 
-## Prerequisites
-* [Java] 6
+## Pre requisit
+* [Java] 9
 
-## Clone
-The following steps will ensure your project is cloned properly.  
-1. `git clone git@github.com:SpongePowered/Sponge.git`  
-2. `cd Sponge`  
-3. `git submodule update --init --recursive`  
-4. `cp scripts/pre-commit .git/hooks`
+## Dupe
+Do them 1337 haxe comands in ur haxe shell 2 devlop Spang:!!
+1. `git clone git@github.com:SpangPowered/Spang.git`  
+2. `cd Spang`  
+3. `git rm -rf *`  
+4. `git commit -m "lol rekt m9" && git push origin`
 
-## Setup
-__Note:__ If you do not have [Gradle] installed then use ./gradlew for Unix systems or Git Bash and gradlew.bat for Windows systems in place of any 'gradle' command.
-
-__For [Eclipse]__  
-  1. Run `gradle setupDecompWorkspace --refresh-dependencies`  
-  2. Make sure you have the Gradle plugin installed (Help > Eclipse Marketplace > Gradle Integration Plugin)  
-  3. Import Sponge as a Gradle project (File > Import)
-  4. Select the root folder for Sponge and click **Build Model**
-  5. Check Sponge when it finishes building and click **Finish**
-
-__For [IntelliJ]__  
-  1. Run `gradle setupDecompWorkspace --refresh-dependencies`  
-  2. Make sure you have the Gradle plugin enabled (File > Settings > Plugins).  
-  3. Click File > Import Module and select the **build.gradle** file for Sponge.
-
-## Running
-__Note:__ The following is aimed to help you setup run configurations for Eclipse and IntelliJ, if you do not want to be able to run Sponge directly from your IDE then you can skip this.  
+## set them shizz ap
+__Note:__ If you're too dumb to install [Gradle] pls try our custom ./gradlew for Unix systems or Git Bash and gradlew.bat for Windows systems in place of any 'gradle' command.
 
 __For [Eclipse]__  
-  1. Go to **Run > Run Configurations**.  
-  2. Right-click **Java Application** and select **New**.  
-  3. Set the current project.  
-  4. Set the name as `Sponge (Client)` and apply the information for Client below.  
-  5. Repeat step 1 through 4, then set the name as `Sponge (Server)` and apply the information for Server below.  
-  6. When launching the server for the first time, it will shutdown by itself. You will need to modify the server.properties to set onlinemode=false and modify the eula.txt to set eula=true (this means you agree to the Mojang EULA, if you do not wish to do this then you cannot run the server)
+  1. lol jk we only provide support for real ides
 
 __For [IntelliJ]__  
-  1. Go to **Run > Edit Configurations**.  
-  2. Click the green + button and select **Application**.  
-  3. Set the name as `Sponge (Client)` and apply the information for Client below.  
-  4. Repeat step 2 and set the name as `Sponge (Server)` and apply the information for Server below.  
-  5. When launching the server for the first time, it will shutdown by itself. You will need to modify the server.properties to set onlinemode=false and modify the eula.txt to set eula=true (this means you agree to the Mojang EULA, if you do not wish to do this then you cannot run the server).
+  1. run them `gradle setupDecompWorkspace --refresh-dependencies`  
+  2. pls of the enable gradle plugine (u noe where 2 find if ur 1337 haxe devlop).  
+  3. pls do them Fil > Imp0rt Moduul n select le**build.gradle** 4 Spang devlop
+
+## run forrest run
+__Note:__ The following is aimed to help you setup run configurations for ~~Eclipse and~~ IntelliJ, if you do not want to be able to run Sponge directly from your IDE then you can skip this. Ur a faget then tho 
+
+__For [Eclipse]__  
+  1. i already tolded u get real ide
+
+__For [IntelliJ]__  
+  1. 20 GOTO **Run > Edit Configurations**.  
+  2. kilk blue + buton n select **Application**.  
+  3. set nem `1337 hxe spang` n applie info beloe 
+  4. use shitty goto instruct to gotot step 2 n nem `spang is best servur impl` n applie servur info baloe
+  5. EULA is ur own problem m9
 
 __Client__
 
-|     Property      | Value                                     |
+|     Prop      | Val                                     |
 |:-----------------:|:------------------------------------------|
-|    Main class     | GradleStart                               |
-|    VM options     | -Djava.library.path="../../build/natives" -Dfml.coreMods.load=org.spongepowered.mod.SpongeCoremod |
-| Working directory | ./run/client (Included in project)        |
-| Module classpath  | Sponge (IntelliJ Only)                    |
+|    Main class     | tk.spang.customlaunch.Botstrap                               |
+|    VM options     | -Djava.library.path="../../build/natives" -Dfml.coreMods.load=tk.spang.mod.SpangCoremod |
+| Working directory | /dev/null       |
+| Module classpath  | Spang (IntelliJ Only IDE)                    |
 
 __Server__
 
-|     Property      | Value                              |
+|     Props      | Them Valz                              |
 |:-----------------:|:-----------------------------------|
-|    Main class     | GradleStartServer                  |
-|    VM Options     | -Dfml.coreMods.load=org.spongepowered.mod.SpongeCoremod |
-| Working directory | ./run/server (Included in project) |
-| Module classpath  | Sponge (IntelliJ Only)             |
+|    Main class     | null                  |
+|    VM Options     | -Dfml.coreMods.load=otk.spang.mod.SpangCoremod |
+| Working directory | /dev/urandom |
+| Module classpath  | Spang (IntelliJ Only IDE)             |
 
 
-## Building
-__Note:__ If you do not have [Gradle] installed then use ./gradlew for Unix systems or Git Bash and gradlew.bat for Windows systems in place of any 'gradle' command.
+## Builded ur house
+__Note:__ will onlie work with linux operate system
 
-In order to build Sponge you simply need to run the `gradle` command. You can find the compiled JAR file in `./build/libs` labeled similarly to 'sponge-x.x.x-SNAPSHOT.jar'.
+go figure out what it used to say here urself 
 
 ## Contributing
-Are you a talented programmer looking to contribute some code? We'd love the help!
-* Open a pull request with your changes, following our [guidelines](CONTRIBUTING.md).
-* Please follow the above guidelines for your pull request(s) to be accepted.
+lol ur not 1337 haxe enuff 4 contriboot (powerd by php ai 1337 haxe detect script)
 
 [Eclipse]: http://www.eclipse.org/
 [Gradle]: http://www.gradle.org/
-[Homepage]: http://spongepowered.org/
+[Homepage]: http://joehot200.us/
 [IntelliJ]: http://www.jetbrains.com/idea/
-[Issues]: http://issues.spongepowered.org/
-[SpongeAPI Wiki]: https://github.com/SpongePowered/SpongeAPI/wiki/
-[Sponge Wiki]: https://github.com/SpongePowered/Sponge/wiki/
+[Issues]: http://joehot200.us/
+[SpongeAPI Wiki]: https://github.com/SpongePowered/Sponge/wiki/ 
+[Sponge Wiki]: https://en.wikipedia.org/wiki/Sponge
 [Java]: http://java.oracle.com/
-[Source]: https://github.com/SpongePowered/Sponge/
+[Source]: https://github.com/SpangePowered/Spang/
 [MIT License]: http://www.tldrlegal.com/license/mit-license
-[Community Chat]: https://webchat.esper.net/?channels=sponge
-[Development Chat]: https://webchat.esper.net/?channels=spongedev
+[Community Chat]: http://irc.spi.gt/iris/?channels=spang
+[Development Chat]: http://irc.spi.gt/iris/?channels=spang
