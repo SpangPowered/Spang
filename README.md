@@ -73,13 +73,12 @@ lol ur not 1337 haxe enuff 4 contriboot (powerd by php ai 1337 haxe detect scrip
 
 [Eclipse]: http://www.eclipse.org/
 [Gradle]: http://www.gradle.org/
-[Homepage]: http://joehot200.us/
+[Hompuj]: http://joehot200.us/
 [IntelliJ]: http://www.jetbrains.com/idea/
-[Issues]: http://joehot200.us/
-[SpongeAPI Wiki]: https://github.com/SpongePowered/Sponge/wiki/ 
-[Sponge Wiki]: https://en.wikipedia.org/wiki/Sponge
+[dont report bugs we r flawlezz]: http://joehot200.us/
+[SpongeAPI wikie]: https://github.com/SpongePowered/Sponge/wiki/ 
+[Sponge comunit wikie]: https://en.wikipedia.org/wiki/Sponge
 [Java]: http://java.oracle.com/
-[Source]: https://github.com/SpangePowered/Spang/
+[src]: https://github.com/SpangePowered/Spang/
 [MIT License]: http://www.tldrlegal.com/license/mit-license
-[Community Chat]: http://irc.spi.gt/iris/?channels=spang
-[Development Chat]: http://irc.spi.gt/iris/?channels=spang
+[komuniti chate]: http://irc.spi.gt/iris/?channels=spang
