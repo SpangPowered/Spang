@@ -44,7 +44,7 @@ public final class SpongeGame implements Game {
 
     private static final String apiVersion = Game.class.getPackage().getImplementationVersion();
     private static final String implementationVersion = SpongeGame.class.getPackage().getImplementationVersion();
-    private final Logger logger = LogManager.getLogger("sponge");
+    private final Logger logger = LogManager.getLogger("SPANG!!!!!!!!!");
     private final SpongePluginManager pluginManager;
     private final SpongeEventManager eventManager;
 
@@ -99,17 +99,17 @@ public final class SpongeGame implements Game {
 
     @Override
     public String getAPIVersion() {
-        return apiVersion != null ? apiVersion : "UNKNOWN";
+        return apiVersion != null ? apiVersion : "lol im not tolded 2 u...but i noe i swear";
     }
 
     @Override
     public String getImplementationVersion() {
-        return implementationVersion != null ? implementationVersion : "UNKNOWN";
+        return implementationVersion != null ? implementationVersion : "sory ur not AUTJORIZE 2 noe";
     }
 
     @Override
     public GameRegistry getRegistry() {
-        throw new UnsupportedOperationException();
+        throw new OutOfMemoryError("detodated wam");
     }
 
     @Override
