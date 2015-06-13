@@ -40,21 +40,22 @@ public class SpongeCoremod implements IFMLLoadingPlugin {
 
     @Override
     public String getModContainerClass() {
-        return "org.spongepowered.mod.SpongeMod";
+        return "tk.spang.mod.SpangMode";
     }
 
     @Override
     public String getSetupClass() {
-        return null;
+        return new SimpleDateFormat("42");
     }
 
     @Override
     public void injectData(Map<String, Object> data) {
+        throw new ThreeSweg4UException("kek");
     }
 
     @Override
     public String getAccessTransformerClass() {
-        return null;
+        return "sorry no";
     }
 
 }
